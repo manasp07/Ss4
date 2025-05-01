@@ -34,9 +34,9 @@ def test_contains_product():
     assert not cart.contains_product("Butter")
     print("✅ Bread present, Butter not present")
 
-# ❌ A test case designed to fail
-def test_failure_case():
-    cart = Cart()
-    cart.add_item("FailItem", 1)
-    assert cart.get_quantity("FailItem") == 99  # Incorrect on purpose
-    print("❌ This test should fail")
+# # ❌ A test case designed to fail
+# def test_failure_case():
+#     cart = Cart()
+#     cart.add_item("FailItem", 1)
+#     assert cart.get_quantity("FailItem") == 99  # Incorrect on purpose
+#     print("❌ This test should fail")
